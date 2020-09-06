@@ -4,7 +4,7 @@ import axios from "axios";
 function CommentCreate({ postId }) {
   const [content, setContent] = useState("");
 
-  const url = `http://localhost:4001/posts/${postId}/comments`;
+  const url = `http://posts.com/posts/${postId}/comments`;
   const onSubmit = async (event) => {
     event.preventDefault();
     await axios.post(url, {

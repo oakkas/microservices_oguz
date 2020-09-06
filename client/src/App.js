@@ -7,7 +7,7 @@ import "./App.css";
 function App() {
   return (
     <div className="container">
-      <h1>Create Posts</h1>
+      <h1>Create Posts Yay</h1>
       <PostCreate />
       <hr />
       <h1>Posts</h1>
